@@ -8,3 +8,4 @@ import maya.cmds as cmds
 
 script_folder = cmds.internalVar(userScriptDir=True)
 exec(open(script_folder + "CopySkinWeights_Tool.py").read())
+autoLimbUi()
