@@ -13,8 +13,7 @@
 
 ## 🖼 Screenshot and Demo
 ![BipedLimbCreator Demo](screenshots/demo.gif)
-![BipedLimbCreator Demo](screenshots/screenshot1.gif)
-![BipedLimbCreator Demo](screenshots/screenshot2.gif)
+![BipedLimbCreator Demo](screenshots/screenshots1.gif)
 
 
 ## 🖥️ Requirements
@@ -29,6 +28,7 @@ import maya.cmds as cmds
 
 script_folder = cmds.internalVar(userScriptDir=True)
 exec(open(script_folder + "CopySkinWeights_Tool.py").read())
+autoLimbUi()
 ```
 
 1. Clone or download the repository:
