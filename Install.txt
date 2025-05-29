@@ -1,0 +1,10 @@
+Use "L_" or "R_" for left and right side and use suffix for "_Jnt"
+
+# how to install
+copy and paste the python file on you maya script folder: C:/Users/userName/OneDrive/Documents/maya/version/scripts/
+
+# Python
+import maya.cmds as cmds
+
+script_folder = cmds.internalVar(userScriptDir=True)
+exec(open(script_folder + "CopySkinWeights_Tool.py").read())
