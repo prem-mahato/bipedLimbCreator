@@ -18,7 +18,7 @@
 
 ## 🖥️ Requirements
 
-- Autodesk Maya (Tested on 2022 and above)
+- Autodesk Maya (Tested on 2020 and above)
 - Python 2.7 or 3.x (depending on Maya version)
 - Maya `cmds` modules
 
